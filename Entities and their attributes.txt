@@ -1,0 +1,25 @@
+Entities and their attributes
+
+1.Student
+	student Account number(P.K) 12 digit (1 11!) 
+	firstname
+ 	lastName
+	phone number
+	email address
+	ADDRESS(it will be null at first because everyone does not have  	permanent address)(F.k)
+
+2.Seller 12(2 11!) 
+	shop registeration number(P.K)
+	Shop name
+	ADDRESS(F.k)
+	contact no
+	emailaddress	
+3.Designation
+	ID (p.k)
+	Designation
+4.Login
+	Login Id (p.k)
+	Username
+	password
+	Designation(F.K)(act as descriminator column)
+	USer Id(F.k)
